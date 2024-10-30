@@ -350,12 +350,13 @@ img {
     flex-direction: column;
     padding: 0px;
     margin-bottom: 15px;
+    width: 50%;
   }
 
   input[type="text"] {
     padding: 5px;
     margin: 5px;
-    width: 100px;
+    width: 50%;
     margin-right: 1px;
     border-radius: 4px;
     border: 2px solid rgb(190, 190, 190);
@@ -363,7 +364,7 @@ img {
   }
   input[type="email"] {
     padding: 5px;
-    width: 150px;
+    width: 80%;
     margin-right: 5px;
     border-radius: 4px;
     border: 2px solid rgb(190, 190, 190);
