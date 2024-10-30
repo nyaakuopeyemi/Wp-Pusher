@@ -235,7 +235,7 @@ a {
   margin-bottom: 30px;
   padding-bottom: 30px;
   font-size: small;
-  box-shadow: 0.01px 0.5px 0.5px white;
+  box-shadow: 0.01px 0.5px 0.5px rgb(238, 239, 243);
 }
 
 #sec2 {
@@ -412,12 +412,12 @@ img {
     width: 220px;
     margin: auto;
   }
-  
+
   .p4 p {
     margin: 1px;
     font-size: small;
   }
-  
+
   .p5 {
     margin-top: 0;
     margin-bottom: 10px;
@@ -425,5 +425,29 @@ img {
   }
   span {
     font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  }
+
+  .p1,
+  .p3 {
+    margin-bottom: 10px;
+    vertical-align: top;
+    display: flex;
+    flex-direction: row;
+  }
+  .p1 p {
+    margin: 2px;
+    font-weight: 800;
+  }
+  .p3 p {
+    margin: 2px;
+    font-weight: 800;
+  }
+
+  #sec1 {
+    width: 210px;
+    margin-bottom: 30px;
+    padding-bottom: 30px;
+    font-size: small;
+    box-shadow: 0.01px 0.5px 0.5px rgb(104, 127, 219);
   }
 }
