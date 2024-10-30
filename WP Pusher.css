@@ -269,3 +269,20 @@ img {
   margin: 0;
   padding: 10px;
 }
+
+
+@media only screen and (max-width: 600px) {
+  .navigation{
+    width: 100vh;
+    padding: 0;  
+    margin-bottom: 60px;
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+    justify-content: space-between;
+    background-color: white;
+    border: 1px solid rgb(250, 247, 247);
+    box-shadow: 0.001px 1px 2px rgb(207, 206, 206)
+  }
+
+}
