@@ -2,9 +2,9 @@ body {
   margin-bottom: 300px;
 }
 
-.navigation{
+.navigation {
   width: 100%;
-  padding: 0;  
+  padding: 0;
   margin-bottom: 60px;
   display: flex;
   flex-direction: row;
@@ -12,10 +12,10 @@ body {
   justify-content: space-between;
   background-color: white;
   border: 1px solid rgb(250, 247, 247);
-  box-shadow: 0.001px 1px 2px rgb(207, 206, 206)
+  box-shadow: 0.001px 1px 2px rgb(207, 206, 206);
 }
 
-#logo{
+#logo {
   width: 200px;
 }
 
@@ -29,38 +29,37 @@ body {
   justify-content: space-evenly;
 }
 
-.rightnav button{
+.rightnav button {
   background-color: white;
   border: 2px solid white;
   padding: 5px;
   font-weight: 700;
 }
-.rightnav button:hover{
+.rightnav button:hover {
   border: 1px solid black;
   border-radius: 5px;
 }
-
 
 .content {
   display: flex;
   flex-direction: row;
   flex: 1;
-  width: 690px;
-  margin: auto;  
+  width: 680px;
+  margin: auto;
   box-shadow: 0.001px 8px 15px gray;
 }
 .left {
   padding: 10px;
-  min-width: 400px;
+  width: 400px;
 }
 .right {
   color: antiquewhite;
   background-color: rgb(74, 126, 204);
-  max-width: 600;
+  width: 200px;
   padding: 30px;
 }
 .right {
-  h1{
+  h1 {
     margin-top: 0;
     font-size: small;
   }
@@ -234,14 +233,14 @@ a {
 #sec1 {
   width: 210px;
   margin-bottom: 30px;
-  padding-bottom: 30px; 
+  padding-bottom: 30px;
   font-size: small;
   box-shadow: 0.01px 0.5px 0.5px white;
 }
 
 #sec2 {
   width: 210px;
-  margin-bottom: 50px;  
+  margin-bottom: 50px;
   font-size: small;
   margin-bottom: 10px;
 }
@@ -270,28 +269,142 @@ img {
   padding: 10px;
 }
 
+@media only screen and (max-width: 650px) {
+  body {
+    margin: auto;
+    font-size: small;
+  }
 
-@media only screen and (max-width: 600px) {
-  .navigation{
-    max-width: 600px;
-    padding: 0;  
+  .navigation {
+    width: 100%;
+    padding: 0;
     margin-bottom: 60px;
     display: flex;
     flex-direction: row;
     flex: 1;
     justify-content: space-between;
     background-color: white;
-    border: 1px solid rgb(250, 247, 247);
-    box-shadow: 0.001px 1px 2px rgb(207, 206, 206)
+    border: 1px solid rgb(219, 212, 212);
+    box-shadow: 0.001px 10px 10px rgb(218, 210, 210);
+  }
+
+  #logo {
+    width: 100px;
+  }
+
+  .rightnav {
+    width: 200px;
+    margin-top: auto;
+    margin-bottom: auto;
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+
+  .rightnav button {
+    background-color: white;
+    border: 2px solid white;
+    padding: 5px;
+    font-weight: 700;
+  }
+  .rightnav button:hover {
+    border: 1px solid black;
+    border-radius: 5px;
   }
 
   .content {
     display: flex;
     flex-direction: row;
     flex: 1;
-    max-width: 300px;
-    margin: auto;  
-    box-shadow: 0.001px 8px 15px gray;
+    width: 600px;
+    margin: auto;
+    box-shadow: 0.001px 8px 15px rgb(141, 137, 137);
+  }
+  .left {
+    padding: 15px;
+    border: 1px solid rgb(196, 201, 196);
+  }
+  .left {
+    h1 {
+      padding-left: 10px;
+    }
   }
 
+  .right {
+    color: antiquewhite;
+    background-color: rgb(74, 126, 204);
+    padding: 10px;
+  }
+  .right {
+    h1 {
+      margin-top: 0;
+      font-size: small;
+    }
+  }
+
+  form {
+    display: flex;
+    flex-direction: column;
+    padding: 0px;
+    margin-bottom: 15px;
+  }
+
+  input[type="text"] {
+    padding: 5px;
+    margin: 5px;
+    width: 100px;
+    margin-right: 1px;
+    border-radius: 4px;
+    border: 2px solid rgb(190, 190, 190);
+    background-color: whitesmoke;
+  }
+  input[type="email"] {
+    padding: 5px;
+    width: 150px;
+    margin-right: 5px;
+    border-radius: 4px;
+    border: 2px solid rgb(190, 190, 190);
+    background-color: whitesmoke;
+  }
+  #CC {
+    padding: 10px;
+    width: 250px;
+    font-size: xx-small;
+    margin-right: 5px;
+    border-radius: 4px;
+    border: 2px solid rgb(190, 190, 190);
+    background-color: whitesmoke;
+  }
+
+  button[type="submit"] {
+    padding: 10px;
+    min-width: 250px;
+    margin-top: 40px;
+    border: 1px solid rgb(134, 131, 131);
+    border-radius: 4px;
+    background-color: rgb(9, 129, 119);
+    color: white;
+    font-weight: 600;
+    justify-self: center;
+  }
+  button[type="button"] {
+    height: 30px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border: 1px solid rgb(245, 240, 240);
+    border-radius: 10px;
+    background-color: rgb(177, 174, 174);
+    color: white;
+    font-weight: 700;
+    font-size: small;
+  }
+  .p5 {
+    margin-top: 0;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+  span {
+    font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  }
 }
