@@ -270,7 +270,7 @@ img {
   padding: 10px;
 }
 
-@media only screen and (max-width: 650px) {
+@media screen and (max-width: 650px), screen and (max-height: 700px) {
   body {
     padding: auto;
     margin-bottom: 40px;
@@ -280,7 +280,7 @@ img {
   }
 
   .navigation {
-    width: 46vh;
+    width: 100%;
     padding: 0;
     margin-bottom: 60px;
     align-self: center;
