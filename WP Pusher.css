@@ -52,8 +52,7 @@ body {
 }
 .left {
   padding: 15px;
-  margin-right: 10px;
-  width: 450px;
+  width: 400px;
 }
 .right {
   color: antiquewhite;
@@ -331,8 +330,9 @@ img {
   }
   .left {
     padding: 15px;
+    margin-right: 10px;
     border: 1px solid rgb(196, 201, 196);
-    width: 45%;
+    width: 50%;
   }
   .left {
     h1 {
