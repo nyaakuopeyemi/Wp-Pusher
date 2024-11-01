@@ -1,7 +1,6 @@
 body {
   margin-bottom: 300px;
   padding: auto;
-  height: 100vh;
 }
 
 .navigation {
@@ -276,13 +275,13 @@ img {
     padding: auto;
     margin-bottom: 40px;
     font-size: small;
+    height: 100vh;
   }
 
   .navigation {
     width: 100%;
     padding: 0;
     margin-bottom: 60px;
-    align-self: center;
     display: flex;
     flex-direction: row;
     flex: 1;
