@@ -282,8 +282,6 @@ img {
     width: 100%;
     padding: 0;
     margin-bottom: 60px;
-    margin-left: 8px;
-    margin-right: 10px;
     align-self: center;
     display: flex;
     flex-direction: row;
@@ -329,10 +327,9 @@ img {
     box-shadow: 0.001px 8px 15px rgb(141, 137, 137);
   }
   .left {
-    padding: 15px;
-    margin-right: 10px;
+    padding: 14px;
     border: 1px solid rgb(196, 201, 196);
-    width: 50%;
+    width: 49%;
   }
   .left {
     h1 {
@@ -423,7 +420,7 @@ img {
 
   .p4 p {
     margin: 1px;
-    font-size: x-small;
+    font-size: xx-small;
   }
 
   .p5 {
