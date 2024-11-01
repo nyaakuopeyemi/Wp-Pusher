@@ -276,6 +276,7 @@ img {
     margin-bottom: 40px;
     font-size: small;
     height: 100vh;
+    background-color: aqua;
   }
 
   .navigation {
@@ -322,7 +323,6 @@ img {
     flex: 1;
     width: 90%;
     margin: auto;
-    align-self: center;
     box-shadow: 0.001px 8px 15px rgb(141, 137, 137);
   }
   .left {
