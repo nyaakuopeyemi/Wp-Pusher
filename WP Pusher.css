@@ -444,7 +444,8 @@ img {
   }
   .p3 p {
     margin: 2px;
-    font-weight: 800;
+    font-weight: 600;
+    font-size: xx-small;
   }
 
   #sec1 {
