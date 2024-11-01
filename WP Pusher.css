@@ -272,7 +272,7 @@ img {
 
 @media screen and (max-width: 650px), screen and (max-height: 700px) {
   body {
-    padding: 0;
+    padding: 8px;
     margin-bottom: 40px;
     font-size: small;
     height: 100vh;
@@ -290,6 +290,7 @@ img {
     justify-content: space-between;
     background-color: rgb(233, 243, 243);
     border: 1px solid rgb(219, 212, 212);
+    border-radius: 5px;
     box-shadow: 0.001px 1px 2px rgb(207, 206, 206);
   }
 
@@ -319,6 +320,7 @@ img {
   }
 
   .content {
+    border-radius: 5px;
     display: flex;
     flex-direction: row;
     flex: 1;
