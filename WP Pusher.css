@@ -307,8 +307,9 @@ img {
   }
 
   .rightnav button {
-    background-color: white;
+    background-color: rgb(233, 243, 243);
     border: 2px solid white;
+    border-radius: 5px;
     padding: 5px;
     font-weight: 700;
   }
