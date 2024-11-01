@@ -276,7 +276,7 @@ img {
     margin-bottom: 40px;
     font-size: small;
     height: 100vh;
-    background-color: aqua;
+    background-color: rgb(233, 243, 243);
   }
 
   .navigation {
@@ -443,7 +443,7 @@ img {
     font-weight: 800;
   }
   .p3 p {
-    margin: 2px;
+    margin: 1px;
     font-weight: 600;
     font-size: xx-small;
   }
