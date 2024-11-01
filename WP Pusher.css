@@ -289,7 +289,7 @@ img {
     flex: 1;
     justify-content: space-between;
     background-color: rgb(233, 243, 243);
-    border: 1px solid rgb(219, 212, 212);
+    border: 1px solid rgb(233, 243, 243);
     border-radius: 5px;
     box-shadow: 0.001px 1px 2px rgb(207, 206, 206);
   }
