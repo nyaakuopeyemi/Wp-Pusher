@@ -272,7 +272,7 @@ img {
 
 @media screen and (max-width: 650px), screen and (max-height: 700px) {
   body {
-    padding: auto;
+    padding: 30px;
     margin-bottom: 40px;
     font-size: small;
     height: 100vh;
