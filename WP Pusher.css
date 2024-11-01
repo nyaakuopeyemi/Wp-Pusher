@@ -52,6 +52,7 @@ body {
 }
 .left {
   padding: 10px;
+  margin-right: 20px;
   width: 400px;
 }
 .right {
